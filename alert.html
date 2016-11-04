@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<center>
+<h1 style="color:red"> Contoh Alert JS</h1>
+
+<script type="text/javascript">
+	// direct alert
+	alert('ALERT!!!,Jomlo dilarang buka');
+	
+</script>
+
+<button onclick="alert('Jomlo dasar haha!')">
+	Click Aku Mass
+</button>
+
+<button onclick="alert_custom()">
+Click Aku dong
+	
+</button>
+
+<script type="text/javascript">
+	function alert_custom()
+	{
+		alert('Jomblo kan?');
+		if(confirm('Ya kan?'))
+		{
+			alert_custom();
+		}
+	}
+
+</script>
+</center>
+</body>
+</html>
